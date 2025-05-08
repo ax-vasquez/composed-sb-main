@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_e3294c6e7912321"
   },
   "dependencies": {
     "next": "15.3.2",
@@ -44,5 +45,8 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "storybook": {
+    "url": "https://681d10b3978cabf4002ad340-doyeqhnzbk.staging-chromatic.com"
   }
 }
