@@ -45,8 +45,5 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  },
-  "storybook": {
-    "url": "https://681d127b978cabf4002ad3a7-tulvemqnga.staging-chromatic.com/"
   }
 }

@@ -18,11 +18,6 @@ const config: StorybookConfig = {
   "staticDirs": [
     "../public"
   ],
-  "refs": {
-    "chromatic-published-storybook": {
-      title: "Donor",
-      url: "https://681d127b978cabf4002ad3a7-tulvemqnga.staging-chromatic.com/",
-    },
-  }
+
 };
 export default config;
